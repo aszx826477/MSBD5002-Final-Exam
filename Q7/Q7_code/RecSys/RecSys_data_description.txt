@@ -1,0 +1,46 @@
+RATINGS FILE DESCRIPTION
+================================================================================
+
+All ratings are contained in the file "rating.csv" and are in the
+following format:
+
+UserID::MovieID::Rating
+
+- UserIDs range between 1 and 6040 
+- MovieIDs range between 1 and 3952
+- Ratings are made on a 5-star scale (whole-star ratings only)
+- Each user has at least 20 ratings
+
+
+MOVIES FILE DESCRIPTION
+================================================================================
+
+Movie information is in the file "movies.csv" and is in the following
+format:
+
+MovieID::Tags
+
+- Tags are pipe-separated and are selected from the following genres:
+
+	* Action
+	* Adventure
+	* Animation
+	* Children's
+	* Comedy
+	* Crime
+	* Documentary
+	* Drama
+	* Fantasy
+	* Film-Noir
+	* Horror
+	* Musical
+	* Mystery
+	* Romance
+	* Sci-Fi
+	* Thriller
+	* War
+	* Western
+
+- Some MovieIDs do not correspond to a movie due to accidental duplicate
+entries and/or test entries
+- Movies are mostly entered by hand, so errors and inconsistencies may exist

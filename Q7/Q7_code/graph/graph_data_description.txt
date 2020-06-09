@@ -1,0 +1,7 @@
+GRAPH FILE DESCRIPTION
+================================================================================
+
+The adjacency matrix of the graph has been stored in "graph.npz".
+
+You may load it by: numpy.load("graph.npz")
+

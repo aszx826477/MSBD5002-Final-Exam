@@ -1,0 +1,7 @@
+2020-06-02 Stock Closing Price Prediction
+
+AAPL	313.3019549021752
+PG	115.84059501552453
+GM	25.169791590906147
+
+More detailed price prediction results, please see in the Notebook.

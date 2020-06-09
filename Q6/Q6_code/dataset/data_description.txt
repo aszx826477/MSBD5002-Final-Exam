@@ -1,0 +1,58 @@
+
+Notes
+================================================================================
+
+All .mtx file can be viewed or opened by text editor or code editor (e.g., vs code).
+
+
+
+
+IDS FILE DESCRIPTION
+================================================================================
+
+419 users are referenced by unique tweet IDs.
+
+UserID
+
+- UserIDs 
+
+
+
+
+FOLLOWS/FOLLOWEDBY FILE DESCRIPTION
+================================================================================
+
+
+UserID::UserID::LINKAGE
+
+- In FOLLOWS.mtx, (a,b,1) denotes that user a follows user b.
+- In FOLLOWEDBY.mtx, (a,b,1) denotes that user a is followed by user b.
+
+
+
+
+MENTION/MENTIONEDBY FILE DESCRIPTION
+================================================================================
+
+
+UserID::UserID::#mention
+
+- In MENTION.mtx, (a,b,5) denotes that user a mentions user b 5 times.
+- In MENTIONEDBY.mtx, (a,b,5) denotes that user a is mentioned by user b 5 times.
+
+
+
+
+RETWEET/RETWEETEDBY FILE DESCRIPTION
+================================================================================
+
+
+UserID::UserID::#retweet
+
+- In RETWEET.mtx, (a,b,5) denotes that user a retweets user b 5 times.
+- In RETWEETEDBY.mtx, (a,b,5) denotes that user a is retweeted by user b 5 times.
+
+
+
+
+
